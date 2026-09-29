@@ -1,0 +1,73 @@
+market,district,lat,lon,source
+Bagalakot,bagalkot,16.8084044,75.7175058,district_fallback
+Bagalkot(Bilagi),bagalkot,16.1734274,75.659552,market
+Bangalore,bangalore,12.9767936,77.590082,market
+"Binny Mill (F&V), Bangalore",bangalore,12.970623,77.5662423,market
+Channapatana,bangalore,13.0222347,77.5671832,district_fallback
+Doddaballa Pur,bangalore,13.0222347,77.5671832,district_fallback
+Hoskote,bangalore,13.0318443,77.7618779,market
+Kanakapura,bangalore,12.9276436,77.5768403,market
+Ramanagara,bangalore,12.9358977,77.5207378,market
+Athani,belgaum,16.7278248,75.0600745,market
+Belgaum,belgaum,15.8583942,74.5241576,market
+Gokak,belgaum,16.1626449,74.814992,market
+Ramdurga,belgaum,15.8505507,74.5069395,district_fallback
+Sankeshwar,belgaum,12.9484838,77.5697866,market
+Bellary,bellary,15.1622026,76.8815329,market
+Hospet,bellary,15.2724253,76.3884193,market
+Basava Kalayana,bidar,17.8426595,76.9433043,market
+Bidar,bidar,17.9149369,77.4880494,market
+Humanabad,bidar,17.7715078,77.1393693,market
+Bijapur,bijapur,16.8269911,75.7175387,market
+Sindagi,bijapur,16.8233102,75.7457674,market
+Sindagi(Indi),bijapur,16.8233102,75.7457674,market
+Bagepalli,chikmagalur,13.7836611,77.7972379,market
+Chikkamagalore,chikmagalur,13.3245255,75.7722995,district_fallback
+Kadur,chikmagalur,13.3313052,75.7904393,market
+Koppa,chikmagalur,13.5334842,75.3670061,market
+Tarikere,chikmagalur,13.7083491,75.812342,market
+Hiriyur,chitradurga,13.9443237,76.6167407,market
+Holalkere,chitradurga,14.0428326,76.1844875,market
+Davangere,davangere,14.4618879,75.9314156,market
+Annigeri,dharwad,15.4260116,75.4333351,market
+Dharwar,dharwad,15.4540505,75.0066516,market
+Hubli (Amaragol),dharwad,15.3518378,75.1379848,market
+Gadag,gadag,15.4221812,75.6376639,market
+Laxmeshwar,gadag,15.416692,75.6815801,district_fallback
+Nargunda,gadag,15.416692,75.6815801,district_fallback
+Arakalgud,hassan,12.7628914,76.062849,market
+Arasikere,hassan,13.3159809,76.256849,market
+Belur,hassan,13.1645671,75.8634851,market
+Channarayapatna,hassan,12.8924577,76.3938858,market
+Hassan,hassan,13.0070817,76.0992703,market
+Haveri,haveri,14.7874825,75.3996731,market
+Ranebennur,haveri,14.6165795,75.6341529,market
+Bangarpet,kolar,12.98822,78.1812561,market
+Chickkaballapura,kolar,13.1805066,78.2669329,district_fallback
+Chintamani,kolar,13.3986587,78.0533058,market
+Gowribidanoor,kolar,13.1805066,78.2669329,district_fallback
+Kolar,kolar,13.123993,78.1329276,market
+Malur,kolar,13.0058697,77.9393648,market
+Mulabagilu,kolar,13.1660479,78.3927241,market
+Srinivasapur,kolar,13.1805066,78.2669329,district_fallback
+Gangavathi,koppal,15.4308872,76.5319723,market
+Koppal,koppal,15.3484144,76.1547421,market
+K.R. Pet,mandya,12.6368939,76.7275477,district_fallback
+Maddur,mandya,12.5848984,77.0448679,market
+Mandya,mandya,12.5238888,76.8961961,market
+Nagamangala,mandya,12.8196077,76.7542189,market
+Hunsur,mysore,12.3132601,76.6343987,market
+K.R.Nagar,mysore,12.3364551,76.6523561,market
+Mysore (Bandipalya),mysore,12.3059327,76.6403692,market
+Nanjangud,mysore,12.1276786,76.6811152,market
+Piriya Pattana,mysore,12.299678,76.6264083,district_fallback
+T. Narasipura,mysore,12.3039064,76.6925903,market
+Manvi,raichur,15.9967483,77.0481181,market
+Raichur,raichur,16.1983225,77.3527444,market
+Bhadravathi,shimoga,13.8502075,75.7037863,market
+Shimoga,shimoga,13.9326093,75.574978,market
+Shimogga(Theertahalli),shimoga,14.0556503,75.2380553,district_fallback
+Madhugiri,tumkur,13.6589225,77.2090396,market
+Sira,tumkur,13.3625154,77.1033088,market
+Tumkur,tumkur,13.3400771,77.1006208,market
+Udupi,udupi,13.3419169,74.7473232,market

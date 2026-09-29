@@ -1,0 +1,30 @@
+# EVERY number here is an ASSUMPTION until you fill `source`. Sliders in the UI override these.
+# crop must exist in the Karnataka slice of Agriculture_price_dataset.csv.
+# Present commodities: Onion, Potato, Tomato, Wheat, Rice. Default = Onion
+# (highest volume 6349 rows, highest price dispersion, what an FPO actually stores).
+crop: Onion
+state: Karnataka
+freight:
+  truck_capacity_qtl: 100        # ~10 t truck. source: TODO
+  diesel_price: 90.0             # Rs/litre. source: TODO (current pump price)
+  mileage_kmpl: 4.0              # loaded truck. source: TODO
+  other_cost_per_km: 8.0         # driver, tyres, toll allowance. source: TODO
+  fixed_per_trip: 500.0          # Rs. source: TODO
+  return_factor: 2.0             # 2 = empty return billed, 1 = backhaul found
+  transit_shrink_per_km: 0.00002 # fraction per km. source: TODO
+handling:
+  loading_per_qtl: 4.0           # Rs/qtl. source: TODO
+  unloading_per_qtl: 4.0
+  mandi_fixed_charge: 0.0
+market:
+  cess_frac: 0.01                # state APMC market fee. source: TODO (Karnataka APMC rules)
+  commission_frac: 0.02          # source: TODO
+storage:
+  rent_per_qtl_month: 6.0        # WDRA-accredited warehouse tariff. source: TODO
+  insurance_fumigation_per_qtl_day: 0.05
+  shrink_per_month: 0.01         # moisture + pest loss. source: TODO
+  loan_ltv: 0.70                 # e-NWR pledge loan. source: TODO
+  loan_interest: 0.09            # per year. source: TODO
+  opportunity_cost: 0.12         # farmer equity cost, per year. source: TODO
+  enwr_fee_total: 500.0          # one-time. source: TODO
+  sale_fixed_cost: 200.0

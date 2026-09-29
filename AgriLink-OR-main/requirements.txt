@@ -1,0 +1,35 @@
+# Core -- everything the default pipeline and the dashboard need.
+pandas>=2.0
+numpy
+pyarrow
+pyyaml
+requests
+statsmodels
+pulp==2.9.0   # pinned: PuLP 4.x changed the LpVariable API
+scipy
+plotly
+folium
+streamlit-folium
+streamlit
+pytest
+
+# Live feed only (make fetch). Needs DATA_GOV_KEY in .env -- see .env.example.
+python-dotenv
+
+# ---------------------------------------------------------------------------
+# Backend API (make load-db, make backend). The default target is PostgreSQL;
+# set DATABASE_URL to a sqlite:///... URL for a zero-setup local run.
+# ---------------------------------------------------------------------------
+fastapi
+uvicorn
+sqlalchemy>=2.0
+psycopg2-binary
+httpx              # fastapi.testclient, for API smoke tests
+
+# ---------------------------------------------------------------------------
+# NOT required by default. Install these only to run
+#   python -m src.geo.build_dist_matrix   with engine="osmnx"
+# which verifies the haversine x circuity distances against real road routing.
+# These are large (osmnx pulls geopandas/shapely) and the download is slow:
+#   pip install osmnx networkx geopandas shapely
+# ---------------------------------------------------------------------------

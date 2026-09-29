@@ -1,0 +1,24 @@
+# Normalise line endings so the repository is identical on Windows and Linux.
+# Without this, every file shows as modified when switching between a Windows
+# and a Linux checkout, which buries real changes in noise.
+* text=auto
+
+*.py   text diff=python
+*.md   text
+*.yaml text
+*.yml  text
+*.toml text
+*.cfg  text
+*.txt  text
+Makefile text
+
+# Data and config that must stay byte-exact.
+*.csv      text
+*.parquet  binary
+*.db       binary
+*.sqlite   binary
+
+# Never touch these.
+LICENSE    text
+.gitignore text
+.gitattributes text
